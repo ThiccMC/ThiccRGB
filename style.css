@@ -1,0 +1,145 @@
+.color {
+  width: 100%;
+}
+.darktextboxes {
+  background-color:#1F2933;
+  border-color:#2C3844;
+  color:white;
+}
+.darkgray {
+  color:darkgray;
+}
+.gray {
+  color:gray;
+}
+.darkerrortext {
+  color:red;
+}
+.errortext {
+  color:darkred;
+}
+.pp::-webkit-scrollbar {
+  display: none; 
+}
+.pp {
+  -ms-overflow-style: none; scrollbar-width: none;
+}
+body.dark {
+  background-color:#33404D;
+  color:white;
+}
+select.dark {
+  background-color:#1F2933;
+  border-color:#2C3844;
+  color:white;
+}
+#colors {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
+@font-face {
+   font-family: MinecraftRegular;
+   src: url(assets/fonts/MinecraftRegular.otf);
+}
+@font-face {
+   font-family: MinecraftBold;
+   src: url(assets/fonts/MinecraftBold.otf);
+}
+@font-face {
+   font-family: MinecraftItalic;
+   src: url(assets/fonts/MinecraftItalic.otf);
+}
+@font-face {
+   font-family: MinecraftBoldItalic;
+   src: url(assets/fonts/MinecraftBoldItalic.otf);
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(assets/fonts/Quicksand/300.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(assets/fonts/Quicksand/500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(assets/fonts/Quicksand/600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(assets/fonts/Quicksand/700.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: regular;
+  font-display: swap;
+  font-weight: 400;
+  src: url(assets/fonts/Quicksand/regular.ttf) format('truetype');
+}
+#coloredNick p {
+  font-size: 4rem;
+}
+.minecraft {
+  font-family: MinecraftRegular;
+}
+.minecraftbold {
+  font-family: MinecraftBold;
+}
+.minecraftitalic {
+  font-family: MinecraftItalic;
+}
+.minecraftibold {
+  font-family: MinecraftBoldItalic;
+}
+.minecraftunderline {
+  text-decoration: underline;
+}
+.minecraftustrike {
+  text-decoration: underline line-through;
+}
+.minecraftstrike {
+  text-decoration: line-through;
+}
+footer{
+  display: table;
+  text-align: center;
+  margin-left:0;
+  margin-right:auto;
+  margin-top:120px;
+}
+#title {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 6s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+#inputs{
+  position: relative;
+}
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+body{
+  margin: auto;
+}
