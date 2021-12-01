@@ -270,3 +270,16 @@ async function displayColoredName(nickName, colors) {
   }
   coloredNick.append(coloredNickP);
 }
+/*copy to clipboard thingy*/
+function copyTextToClipboard(text) {
+  let textArea = document.createElement('textarea');
+  textArea.value = text;
+
+  document.body.appendChild(textArea);
+  textArea.focus();
+  textArea.select();
+
+  document.execCommand('copy');
+  alert('Copied output!');
+  document.body.removeChild(textArea);
+}
